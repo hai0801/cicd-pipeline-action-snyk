@@ -25,6 +25,7 @@ jobs:
       - name: Build with Maven
         run: mvn -B package
 
+
   opensource-security:
     runs-on: ubuntu-latest
     steps:
